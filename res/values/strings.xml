@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QBShareDemo</string>
+    
+    <string-array name="share">       
+        <item name="Facebook">Facebook</item>
+        <item name="Twitter">Twitter</item>
+        <item name="LinkedIn">LinkedIn</item>
+        <item name="Cancel">Cancel</item>
+    </string-array>
+    
+    <!-- facebook -->
+    <string name="loading">Loading...</string>
+    <string name="communication_failure">The server failed to communicate. Try again later.</string>
+    <string name="Facebook_post_success">Successfully shared in Facebook</string>
+    <string name="Facebook_post_failed">Facebook share failed</string>
+    
+   
+    
+    <!-- twitter -->
+    <string name="server_communciation_failed">The server failed to communicate. Try again later.</string>
+    <string name="Twitter_information_title">Twitter</string>
+    <string name="Oauth_failed_received">failed to receive oauth token</string>
+    <string name="App_requires_internet">Application requires permission to access the Internet</string>
+    <string name="Twitter_tweet_success">Successfully Tweeted</string>
+    <string name="Twitter_tweet_failed">Twitter share failed</string>
+    <string name="wait">Please wait...</string>
+    <string name="Twitter_mshop_app_message">Check out mshop....</string>
+    
+    <!-- LinkedIn -->
+    <string name = "LinkedIn_post_success">Successfully shared in LinkedIn</string>
+	<string name = "LinkedIn_post_failed">LinkedIn share failed</string>
+	
+	
+    
+    <style name="FacebookTitleBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/facebook_head</item>
+    </style>
+</resources>
